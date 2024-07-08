@@ -3,6 +3,9 @@
   --default-font: "Poppins", sans-serif;
   --header-bg: #f9f7fe;
 }
+body {
+  user-select: none;
+}
 header {
   text-align: center;
   background-color: var(--header-bg);
@@ -32,4 +35,10 @@ h1 {
   font-size: 18px;
   font-family: var(--default-font);
   padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.top-btn:hover {
+  background-color: white;
+  color: #6c63ff;
 }
