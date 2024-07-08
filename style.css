@@ -3,3 +3,33 @@
   --default-font: "Poppins", sans-serif;
   --header-bg: #f9f7fe;
 }
+header {
+  text-align: center;
+  background-color: var(--header-bg);
+  padding: 40px;
+}
+.top-text {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: var(--default-font);
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 96px;
+  font-family: var(--heading-font);
+  margin-top: 5px;
+}
+.bottom-text {
+  font-size: 24px;
+  font-family: var(--default-font);
+  font-weight: normal;
+}
+.top-btn {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: var(--default-font);
+  padding: 8px 16px;
+}
