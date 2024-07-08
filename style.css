@@ -83,10 +83,11 @@ img {
   margin-top: 40px;
   padding: 25px;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 h3 {
   text-align: left;
-  margin-right: 450px;
+  margin-right: 300px;
   font-family: var(--heading-font);
   font-size: 48px;
   font-weight: bold;
@@ -110,6 +111,7 @@ button {
 .email {
   font-weight: bold;
   font-size: 16px;
+  margin-top: 15px;
 }
 i {
   color: #6c63ff;
