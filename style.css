@@ -9,7 +9,7 @@ body {
 header {
   text-align: center;
   background-color: var(--header-bg);
-  padding: 40px;
+  padding: 60px;
   height: 900;
 }
 .top-text {
