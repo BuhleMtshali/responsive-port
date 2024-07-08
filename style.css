@@ -70,3 +70,38 @@ img {
   font-size: 16px;
   line-height: 30px;
 }
+
+.bottom-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: var(--header-bg);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 40px;
+  padding: 25px;
+  border-radius: 8px;
+}
+h3 {
+  text-align: left;
+  margin-right: 450px;
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: bold;
+}
+.light-text {
+  font-size: 16px;
+  color: #272142;
+  font-family: var(--default-font);
+  font-weight: normal;
+}
+button {
+  padding: 8px 16px;
+  color: #6c63ff;
+  font-size: 18px;
+  border: 2px solid #6c63ff;
+  background-color: white;
+  border-radius: 8px;
+}
