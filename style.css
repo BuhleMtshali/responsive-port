@@ -184,3 +184,22 @@ i {
   font-weight: bold;
   text-align: center;
 }
+.get-in-touch-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.get-in-touch-container h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font);
+}
+.get-in-touch-container a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+.get-in-touch-container p {
+  font-size: 14px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
