@@ -22,9 +22,17 @@ body {
   .hidden {
     display: none;
   }
-  .container-row {
+  .container-row,
+  row {
     text-align: center;
     padding: 5px;
+  }
+  header {
+    width: 100%;
+  }
+  .bottom-div {
+    text-align: center;
+    margin: 0 auto;
   }
 }
 .logo {
